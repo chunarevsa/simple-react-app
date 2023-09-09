@@ -25,7 +25,7 @@ const PostForm = ({create}) => {
                 })}
                 type="text"
                 placeholder="Название поста"/>
-            <h1></h1>
+            <h4>.</h4>
             <MyInput
                 value={post.body}
                 onChange={a => setPost({
@@ -33,7 +33,7 @@ const PostForm = ({create}) => {
                 })}
                 type="text"
                 placeholder="Описание"/>
-            <h1></h1>
+            <h4>.</h4>
             <MyButton onClick={addNewPost}> Опубликовать пост </MyButton>
         </form>
     );
