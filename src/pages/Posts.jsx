@@ -81,7 +81,7 @@ function Posts() {
         <PostList
             remove={removePost}
             posts={sortedAndSearchedPosts}
-            title="Список постов 1"/>}
+            title="Список постов номер 1"/>}
         <div ref={lastElement} style={{height: 20, background: "red"}}>
 
         </div>
