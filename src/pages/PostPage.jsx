@@ -33,7 +33,7 @@ const PostPage = () => {
                 :  <div>{post.id}. {post.title}</div>
             }
             <h1>
-                Комментарии
+                Comments
             </h1>
             {isComLoading
                 ? <Loader/>
